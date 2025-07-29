@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link crossorigin='anonymous' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css' integrity='sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==' referrerpolicy='no-referrer' rel='stylesheet'/>
+    <link rel="stylesheet" href="generator.css">
+    <link rel="shortcut icon" href="https://i.ibb.co/d477r9m/logo.png" type="image/x-icon">
+    <link rel="icon" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3dK3-XAKrEia-lWmiUqAYRfFQ1lR9eJX6ZZH8e_vHf576qf9GJjIWBW9Jg5LsilXX7WO2MOEkg5gzc4pESziaPeMJ9ws9mwtCDdp3p_17D0e0Uop_ZxavwwJeNLBvoyZJ0cxTKQpjzrJIR6LjJslB24tj-77AYrRCacQ3F2S2VPoXpPzPhM1zndxyd1Rg/s3307/B64D5386-DCA4-410B-A0A6-6ACB19D0A06F.png" type="image/x-icon">
+    <title>serie</title>
+</head>
+<body>
+
+<div class="generator">
+
+<ul class="get-data">
+    <li class="back-to"><a href="../GENERATOR%20EDITABLE/Swiper.html"><i class="fa-solid fa-arrow-left-long"></i> Regresar al buscador</a></li>
+    <li>        
+        <h1 class="main-title"><img src="" alt="" style="display: none;"> GENERADOR</h1>
+    </li>
+    <li class="info-box">
+        <h2>TIPO</h2>
+        <form class="tipo">
+            <input type="radio" name="type" id="serie" value="serie" checked/>
+            <label for="serie">SERIE</label>
+            <input type="radio" name="type" id="movie" value="movie"/>
+            <label for="movie">PELICULA</label>
+        </form>
+    </li>
+    
+    <ul class="bs-data-values">
+        <li class="info-box">
+            <h2>ID TMDB <a href="https://www.themoviedb.org/" target="_blank" class="tmdb"><i class="fa-solid fa-link"></i></a></h2>
+            <input type="number" placeholder="ID" id="numero" value="1429">
+        </li>
+    
+        <li class="info-box" id="season-selector">
+            <h2>TEMPORADA</h2>
+            <input type="number" placeholder="# de Temporada" id="numeroTemporada" value="1" min="1">
+        </li>
+    </ul>
+
+    <input type="submit" value="GENERAR" onclick="generar()">
+
+    <li class="data-preview">
+        <img id="info-poster" src="">
+        <ul class="general-info">
+            <h2 id="info-title"></h2>
+            <p id="info-seasons"></p>
+            <p id="info-year"></p>
+        </ul>
+    </li>
+</ul>
+
+<div class="final-js">
+
+    <div class="html-area">
+        <div class="html-final" id="html-final">
+
+        </div>
+    </div>
+
+    <button id="copiar">Copiar HTML <i class="fa-solid fa-copy"></i></button>
+</div>
+
+</div>
+    
+<script src="generator.js"></script>
+</body>
+</html>

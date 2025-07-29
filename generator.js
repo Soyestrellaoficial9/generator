@@ -158,15 +158,6 @@ function generar() {
     }
   </style>
 
-  <!-- Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-622CWCXV7F"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-622CWCXV7F');
-</script>
-
 <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool@latest'></script>
 </head>
 <body class="text-white font-sans leading-relaxed">
@@ -176,7 +167,7 @@ function generar() {
 
  <iframe id="iframe-principal" allow="fullscreen" allowfullscreen></iframe>
   
-  <a href="https://tvacount.github.io/home/" aria-label="Volver" class="absolute top-3 left-3 text-white text-2xl z-20">
+  <a href="https://soyestrellaoficial9.github.io/home/" aria-label="Volver" class="absolute top-3 left-3 text-white text-2xl z-20">
     <i class="fas fa-arrow-left"></i>
   </a>
 
@@ -670,15 +661,15 @@ document.addEventListener('DOMContentLoaded', function () {
     <i class="fa fa-arrow-left"></i>
     <span>REGRESAR</span>
   </a>
-  <a href="https://tvacount.github.io/movies/">
+  <a href="https://soyestrellaoficial9.github.io/movies/">
     <i class="fas fa-video"></i>
     <span>Movies</span>
   </a>
-  <a href="https://tvacount.github.io/series/">
+  <a href="https://soyestrellaoficial9.github.io/series/">
     <i class="fas fa-tv"></i>
     <span>Series</span>
   </a>
-  <a href="https://tvacount.github.io/search/">
+  <a href="https://soyestrellaoficial9.github.io/search/">
     <i class="fas fa-search"></i>
     <span>Buscar</span>
   </a>
